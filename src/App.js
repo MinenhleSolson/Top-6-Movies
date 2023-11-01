@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+    
       <Cards title="Popular Movies" fetchUrl={requests.fetchPopularMovies} />   
+    
     </div>
   );
 }
